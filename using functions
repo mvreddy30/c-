@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+void teacher(int x);
+int main()
+{
+  int a;
+  int b;
+  int sum;
+  cin>>a;
+  cin>>b;
+  if(a>b)
+  {
+  sum = a+b;
+  cout<<sum<<endl;
+  }
+  else
+  {
+    sum=a-b;
+    cout<<sum<<endl;
+      
+      
+      
+  
+  teacher(20);
+  }
+    
+    }
+   
+ void teacher(int x){
+        cout<<"george is a very good teacher"<<x<<endl;
+ }
+        
