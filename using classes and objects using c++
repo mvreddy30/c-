@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int venkat(int x);
+       class george{
+               public:
+                void srikanth(int y)  {
+                                         cout<<y<<endl;
+                                       }
+                   };
+int main()
+{
+     venkat(22);
+     
+          george objecthello;
+          objecthello.srikanth(32);
+}
+   int venkat(int x)
+    {
+         cout<<x<<endl;
+     }
