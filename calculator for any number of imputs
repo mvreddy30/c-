@@ -1,0 +1,32 @@
+#include<iostream>
+
+
+using namespace std;
+ int main()
+ {
+  
+   int age;
+   int agetotal=0;
+   int numberofpeopleentered=0;
+   int average;
+
+   cin>>age;
+   while(age!=-1){
+      
+     
+      agetotal=agetotal+age;
+     numberofpeopleentered++;
+      cin>>age;
+      
+      
+      
+       }
+       
+       cout<<numberofpeopleentered<<endl;
+       cout<<agetotal<<endl;
+       cout<<"average"<<agetotal/numberofpeopleentered<<endl;
+      
+       
+       return 0;
+     
+     }
